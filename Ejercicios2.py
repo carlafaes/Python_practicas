@@ -15,3 +15,8 @@ union=list(a | b)#Union de ambas listas
 interseccion=list(a & b)#Interseccion de ambas listas
 soloA= list(a - b)#Solo en la lista 1
 soloB= list(b - a)#Solo en la lista 2
+
+print("Lista de elementos que aparecen en dos listas: ", union)
+print("Lista de elementos que aparecen en la primera lista pero no en la segunda: ", soloA)
+print("Lista de elementos que aparecen en la segunda lista pero no en la primera: ", soloB)
+print("Lista de elementos que aparecen en ambas listas: ", interseccion)
