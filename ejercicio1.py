@@ -1,8 +1,26 @@
 ##Ejercicio1: escribir la siguiente expresion en forma algoritmica:
 # a3 x (b2 - 2ac)/2b
 
-a=float(input("Ingrese el valor de a: "))
-b=float(input("Ingrese el valor de b: "))
-c=float(input("Ingrese el valor de c: "))
-resultado= (a**3)*(b**2-2*a*c)/(2*b)
-print("El resultado es: ", resultado)
+# a=float(input("Ingrese el valor de a: "))
+# b=float(input("Ingrese el valor de b: "))
+# c=float(input("Ingrese el valor de c: "))
+# resultado= (a**3)*(b**2-2*a*c)/(2*b)
+# print("El resultado es: ", resultado)
+
+##Ejercicio 2: Determinar la solucion logica de la siguiente operacion:
+## ((3+5*8)< 3 and ((-6/3*4)+2 < 2))  or (a > b)
+
+# a= float(input("Ingrese el valor de a: "))
+# b= float(input("Ingrese el valor de b: "))
+
+# resultado= ((3+5*8 < 3 and (-6/3*4)+2<2)) or (a>b)
+# print("El resultado es: ", resultado)
+
+#Ejercicio 3: hacer un programa para intercambiar el valor de 2 variables
+#a=10 -> a=5
+# b =5 -> b=10
+a=int(input("Ingrese el valor de a: "))
+b=int(input("Ingrese el valor de b: "))
+a,b=b,a
+print("El valor de a es: ", a)
+print("El valor de b es: ", b)
