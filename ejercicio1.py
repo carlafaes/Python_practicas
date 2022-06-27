@@ -19,8 +19,15 @@
 #Ejercicio 3: hacer un programa para intercambiar el valor de 2 variables
 #a=10 -> a=5
 # b =5 -> b=10
-a=int(input("Ingrese el valor de a: "))
-b=int(input("Ingrese el valor de b: "))
-a,b=b,a
-print("El valor de a es: ", a)
-print("El valor de b es: ", b)
+# a=int(input("Ingrese el valor de a: "))
+# b=int(input("Ingrese el valor de b: "))
+# a,b=b,a
+# print("El valor de a es: ", a)
+# print("El valor de b es: ", b)
+
+#Ejercicio 4: Hacer un programa para ingresar el radio de un circulo y se reporte su area y la longitud de la circunferencia
+
+radio= float(input("Ingrese el valor del radio: "))
+area= 3.1416*(radio**2)
+longitud= 2*3.1416*radio
+print("El area es: ", area)
