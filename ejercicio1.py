@@ -27,7 +27,15 @@
 
 #Ejercicio 4: Hacer un programa para ingresar el radio de un circulo y se reporte su area y la longitud de la circunferencia
 
-radio= float(input("Ingrese el valor del radio: "))
-area= 3.1416*(radio**2)
-longitud= 2*3.1416*radio
-print("El area es: ", area)
+# radio= float(input("Ingrese el valor del radio: "))
+# area= 3.1416*(radio**2)
+# longitud= 2*3.1416*radio
+# print("El area es: ", area)
+# print("La longitud es: ", longitud)
+
+#Ejercicio 5: Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto debe pagar finalmente.
+
+totalCompra= float(input("Ingrese el valor de la compra: "))
+descuento= totalCompra*0.15
+totalPagar= totalCompra-descuento
+print("El total a pagar es: ", totalPagar)
