@@ -13,3 +13,5 @@ print(diccionario)
 del(diccionario[1])#elimina un elemento del diccionario
 print(diccionario)
 
+vasos={"vaso1":"rojo","vaso2":"azul","vaso3":"rosado"}
+print(vasos.get("vaso1","no se encuentra en el diccionario"))#retorna el valor del elemento si esta, sino retorna el valor por defecto
