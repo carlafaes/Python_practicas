@@ -9,3 +9,7 @@ print(diccionario)
 
 diccionario.pop(4)#elimina un elemento del diccionario
 print(diccionario)
+
+del(diccionario[1])#elimina un elemento del diccionario
+print(diccionario)
+
