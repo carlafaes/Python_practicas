@@ -22,9 +22,14 @@ if opcion == 1:
     print("El saldo actual es: $", saldo)
 elif opcion == 2:
     dinero= float(input("Ingrese el valor del dinero: "))
+    if dinero > saldo:
+        print("No tiene suficiente saldo")
     saldo= saldo-dinero
     print("El saldo actual es: $", saldo)
 elif opcion == 3:
     print("El saldo actual es: $", saldo)
 elif opcion == 4:
+    print("Gracias por usar el cajero automatico")
+else:
+    print("Opcion no valida")
     print("Gracias por usar el cajero automatico")
