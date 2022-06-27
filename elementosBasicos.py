@@ -38,4 +38,4 @@ print("La longitud es: ", longitud)
 totalCompra= float(input("Ingrese el valor de la compra: "))
 descuento= totalCompra*0.15
 totalPagar= totalCompra-descuento
-print("El total a pagar es: ", totalPagar)
+print("El total a pagar es: $", totalPagar)
